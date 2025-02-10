@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@oo/scripting": ["./types/@oo/scripting.d.ts"],
+      "*": ["./src/*", "./*"]
+    },
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "jsxFactory": "UI.createElement",
+    "jsxFragmentFactory": "UI.Fragment",
+    "moduleResolution": "node",
+    "lib": ["ES2015", "DOM"]
+  }
+} 
